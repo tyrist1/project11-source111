@@ -27,20 +27,31 @@ a {
 
 .row {
     display: flex;
+    margin: 5px 10px;
 }
 .col {
     flex: auto;
+    margin: 5px 10px;
 }
 
 
 /* Потом селекторы по классам */
 
 .text-input {
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: aquamarine;
+    border-radius: 40px;
+    width: 100%;
 
 }
 
 .button {
-
+    margin: 20px 0px;
+    padding: 10px 10px;
+    background-color: #3b10e5f5;
+    border-radius: 5px;
+    width: 50%;
 }
 
 /* Потом специальные правила по страничкам */
@@ -48,7 +59,10 @@ a {
 /* Login*/
 
 .input-login {
-
+    margin: 10px 0px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100%;
 
 }
 
