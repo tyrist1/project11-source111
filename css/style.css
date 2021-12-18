@@ -16,7 +16,7 @@ main {
 }
 
 p {
-
+font-family: Arial;
 }
 
 a {
@@ -39,7 +39,9 @@ color: white;
 /* Потом селекторы по классам */
 
 .text-input {
-
+    margin: 20px 0px;
+    padding: 10px 10px;
+    border-radius: 5px;
 }
 
 .button {
@@ -47,6 +49,7 @@ color: white;
     padding: 10px 10px;
     background-color: #3b10e5f5;
     border-radius: 5px;
+    color: white;
     width: 50%;
 }
 
@@ -68,7 +71,7 @@ color: white;
 .genre-first {
     margin: 10px 0px;
     padding: 5px 5px;
-    background-color: aquamarine;
+    background-color: #E1F5EA;
     border-radius: 40px;
     width: 100%;
 }
@@ -84,7 +87,7 @@ margin: 10px 0px;
 .genre-third {
 margin: 10px 0px;
     padding: 5px 5px;
-    background-color: #e5291027;
+    background-color: #e5107733;
     border-radius: 40px;
     width: 60%;
 }
@@ -92,7 +95,7 @@ margin: 10px 0px;
 .genre-fourth {
 margin: 10px 0px;
     padding: 5px 5px;
-    background-color: #e210e538;
+    background-color: #8521943d;
     border-radius: 40px;
     width: 40%;
 }
